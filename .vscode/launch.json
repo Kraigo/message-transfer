@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Current TS File",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/node_modules/ts-node/dist/bin.js",
+            "args": ["${workspaceRoot}/lib/server.ts"],
+            "cwd": "${workspaceRoot}",
+            "protocol": "inspector",
+            "env": {
+                "TELEGRAM_TOKEN": "617165958:AAFVCHP5lzKx6hIdpHvfNKsQdobG7rN5qm4",
+                "VIBER_TOKEN": "481cee7b8ea7d36a-5b3558c425ae65fa-262354aff35194e4",
+                "APP_URL": "https://07aa0eb6.ngrok.io"
+            }
+        }
+    ]
+}
